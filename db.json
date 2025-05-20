@@ -314,42 +314,6 @@
       "publishedYear": 1883,
       "status": "Available",
       "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
-    },
-    {
-      "id": 36,
-      "title": "The Hobbit",
-      "author": "William Shakespeare",
-      "genre": "Drama",
-      "publishedYear": 1931,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
-    },
-    {
-      "id": 37,
-      "title": "The Brothers Karamazov",
-      "author": "Jane Austen",
-      "genre": "Drama",
-      "publishedYear": 2022,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
-    },
-    {
-      "id": 38,
-      "title": "The Catcher in the Rye",
-      "author": "Ray Bradbury",
-      "genre": "Fiction",
-      "publishedYear": 1985,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
-    },
-    {
-      "id": 39,
-      "title": "Wuthering Heights",
-      "author": "Emily Bront\u00eb",
-      "genre": "Dystopian",
-      "publishedYear": 2013,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
     }
   ]
 }
