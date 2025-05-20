@@ -269,51 +269,6 @@
       "publishedYear": 1909,
       "status": "Issued",
       "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
-    },
-    {
-      "id": 31,
-      "title": "The Great Gatsby",
-      "author": "Ray Bradbury",
-      "genre": "Fantasy",
-      "publishedYear": 1926,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
-    },
-    {
-      "id": 32,
-      "title": "Wuthering Heights",
-      "author": "J.D. Salinger",
-      "genre": "Fantasy",
-      "publishedYear": 1921,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
-    },
-    {
-      "id": 33,
-      "title": "Wuthering Heights",
-      "author": "Harper Lee",
-      "genre": "Fantasy",
-      "publishedYear": 2011,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
-    },
-    {
-      "id": 34,
-      "title": "The Brothers Karamazov",
-      "author": "J.R.R. Tolkien",
-      "genre": "Historical",
-      "publishedYear": 2006,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
-    },
-    {
-      "id": 35,
-      "title": "1984",
-      "author": "Aldous Huxley",
-      "genre": "Fiction",
-      "publishedYear": 1883,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
     }
   ]
 }
