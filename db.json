@@ -1,14 +1,904 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "books": [
+    {
+      "id": 1,
+      "title": "The Brothers Karamazov",
+      "author": "William Shakespeare",
+      "genre": "Adventure",
+      "publishedYear": 1857,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 2,
+      "title": "The Catcher in the Rye",
+      "author": "Emily Bront\u00eb",
+      "genre": "Classic",
+      "publishedYear": 2005,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 3,
+      "title": "The Brothers Karamazov",
+      "author": "J.D. Salinger",
+      "genre": "Drama",
+      "publishedYear": 1896,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 4,
+      "title": "Fahrenheit 451",
+      "author": "Leo Tolstoy",
+      "genre": "Fantasy",
+      "publishedYear": 2014,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "publishedYear": 1982,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "author": "Emily Bront\u00eb",
+      "genre": "Classic",
+      "publishedYear": 1924,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 7,
+      "title": "The Brothers Karamazov",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "publishedYear": 1934,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 8,
+      "title": "The Odyssey",
+      "author": "Ray Bradbury",
+      "genre": "Drama",
+      "publishedYear": 1875,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Odyssey"
+    },
+    {
+      "id": 9,
+      "title": "The Great Gatsby",
+      "author": "Ray Bradbury",
+      "genre": "Adventure",
+      "publishedYear": 2006,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+    },
+    {
+      "id": 10,
+      "title": "The Catcher in the Rye",
+      "author": "J.R.R. Tolkien",
+      "genre": "Dystopian",
+      "publishedYear": 1935,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 11,
+      "title": "Moby-Dick",
+      "author": "Charlotte Bront\u00eb",
+      "genre": "Dystopian",
+      "publishedYear": 1934,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Moby-Dick"
+    },
+    {
+      "id": 12,
+      "title": "Jane Eyre",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Historical",
+      "publishedYear": 1854,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+    },
+    {
+      "id": 13,
+      "title": "Pride and Prejudice",
+      "author": "Charlotte Bront\u00eb",
+      "genre": "Fiction",
+      "publishedYear": 1973,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Pride+and+Prejudice"
+    },
+    {
+      "id": 14,
+      "title": "Jane Eyre",
+      "author": "George Orwell",
+      "genre": "Adventure",
+      "publishedYear": 1878,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+    },
+    {
+      "id": 15,
+      "title": "Fahrenheit 451",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1963,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+    },
+    {
+      "id": 16,
+      "title": "War and Peace",
+      "author": "George Orwell",
+      "genre": "Drama",
+      "publishedYear": 2017,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 17,
+      "title": "Fahrenheit 451",
+      "author": "William Shakespeare",
+      "genre": "Historical",
+      "publishedYear": 1944,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+    },
+    {
+      "id": 18,
+      "title": "The Great Gatsby",
+      "author": "Jane Austen",
+      "genre": "Dystopian",
+      "publishedYear": 1922,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+    },
+    {
+      "id": 19,
+      "title": "Brave New World",
+      "author": "Leo Tolstoy",
+      "genre": "Dystopian",
+      "publishedYear": 2019,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+    },
+    {
+      "id": 20,
+      "title": "Hamlet",
+      "author": "Aldous Huxley",
+      "genre": "Fantasy",
+      "publishedYear": 1938,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+    },
+    {
+      "id": 21,
+      "title": "The Brothers Karamazov",
+      "author": "Aldous Huxley",
+      "genre": "Fiction",
+      "publishedYear": 1903,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 22,
+      "title": "The Hobbit",
+      "author": "Emily Bront\u00eb",
+      "genre": "Historical",
+      "publishedYear": 1892,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 23,
+      "title": "Brave New World",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Adventure",
+      "publishedYear": 1868,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+    },
+    {
+      "id": 24,
+      "title": "Hamlet",
+      "author": "Jane Austen",
+      "genre": "Classic",
+      "publishedYear": 1944,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+    },
+    {
+      "id": 25,
+      "title": "Animal Farm",
+      "author": "J.R.R. Tolkien",
+      "genre": "Historical",
+      "publishedYear": 2001,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 26,
+      "title": "The Catcher in the Rye",
+      "author": "Jane Austen",
+      "genre": "Drama",
+      "publishedYear": 1944,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 27,
+      "title": "The Odyssey",
+      "author": "Harper Lee",
+      "genre": "Dystopian",
+      "publishedYear": 1929,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Odyssey"
+    },
+    {
+      "id": 28,
+      "title": "Jane Eyre",
+      "author": "Jane Austen",
+      "genre": "Fiction",
+      "publishedYear": 1994,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+    },
+    {
+      "id": 29,
+      "title": "The Hobbit",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Dystopian",
+      "publishedYear": 1907,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 30,
+      "title": "Brave New World",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1909,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+    },
+    {
+      "id": 31,
+      "title": "The Great Gatsby",
+      "author": "Ray Bradbury",
+      "genre": "Fantasy",
+      "publishedYear": 1926,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+    },
+    {
+      "id": 32,
+      "title": "Wuthering Heights",
+      "author": "J.D. Salinger",
+      "genre": "Fantasy",
+      "publishedYear": 1921,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
+    },
+    {
+      "id": 33,
+      "title": "Wuthering Heights",
+      "author": "Harper Lee",
+      "genre": "Fantasy",
+      "publishedYear": 2011,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
+    },
+    {
+      "id": 34,
+      "title": "The Brothers Karamazov",
+      "author": "J.R.R. Tolkien",
+      "genre": "Historical",
+      "publishedYear": 2006,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 35,
+      "title": "1984",
+      "author": "Aldous Huxley",
+      "genre": "Fiction",
+      "publishedYear": 1883,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
+    },
+    {
+      "id": 36,
+      "title": "The Hobbit",
+      "author": "William Shakespeare",
+      "genre": "Drama",
+      "publishedYear": 1931,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 37,
+      "title": "The Brothers Karamazov",
+      "author": "Jane Austen",
+      "genre": "Drama",
+      "publishedYear": 2022,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 38,
+      "title": "The Catcher in the Rye",
+      "author": "Ray Bradbury",
+      "genre": "Fiction",
+      "publishedYear": 1985,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 39,
+      "title": "Wuthering Heights",
+      "author": "Emily Bront\u00eb",
+      "genre": "Dystopian",
+      "publishedYear": 2013,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
+    },
+    {
+      "id": 40,
+      "title": "The Hobbit",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Dystopian",
+      "publishedYear": 1905,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 41,
+      "title": "Moby-Dick",
+      "author": "William Shakespeare",
+      "genre": "Fantasy",
+      "publishedYear": 1880,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Moby-Dick"
+    },
+    {
+      "id": 42,
+      "title": "To Kill a Mockingbird",
+      "author": "Leo Tolstoy",
+      "genre": "Fiction",
+      "publishedYear": 1988,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=To+Kill+a+Mockingbird"
+    },
+    {
+      "id": 43,
+      "title": "War and Peace",
+      "author": "Homer",
+      "genre": "Adventure",
+      "publishedYear": 1921,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 44,
+      "title": "Hamlet",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "publishedYear": 1873,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+    },
+    {
+      "id": 45,
+      "title": "To Kill a Mockingbird",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Dystopian",
+      "publishedYear": 1982,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=To+Kill+a+Mockingbird"
+    },
+    {
+      "id": 46,
+      "title": "Fahrenheit 451",
+      "author": "Emily Bront\u00eb",
+      "genre": "Classic",
+      "publishedYear": 1970,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+    },
+    {
+      "id": 47,
+      "title": "Hamlet",
+      "author": "Charlotte Bront\u00eb",
+      "genre": "Fantasy",
+      "publishedYear": 1883,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+    },
+    {
+      "id": 48,
+      "title": "The Hobbit",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian",
+      "publishedYear": 1986,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 49,
+      "title": "1984",
+      "author": "Ray Bradbury",
+      "genre": "Adventure",
+      "publishedYear": 1974,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
+    },
+    {
+      "id": 50,
+      "title": "Animal Farm",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fiction",
+      "publishedYear": 1895,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 51,
+      "title": "Hamlet",
+      "author": "Ray Bradbury",
+      "genre": "Fantasy",
+      "publishedYear": 1890,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+    },
+    {
+      "id": 52,
+      "title": "The Great Gatsby",
+      "author": "Harper Lee",
+      "genre": "Fantasy",
+      "publishedYear": 2010,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+    },
+    {
+      "id": 53,
+      "title": "Wuthering Heights",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "publishedYear": 1904,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
+    },
+    {
+      "id": 54,
+      "title": "Animal Farm",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Fantasy",
+      "publishedYear": 1943,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 55,
+      "title": "1984",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian",
+      "publishedYear": 2008,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
+    },
+    {
+      "id": 56,
+      "title": "War and Peace",
+      "author": "William Shakespeare",
+      "genre": "Dystopian",
+      "publishedYear": 1977,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 57,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fantasy",
+      "publishedYear": 2010,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=To+Kill+a+Mockingbird"
+    },
+    {
+      "id": 58,
+      "title": "Animal Farm",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Historical",
+      "publishedYear": 1868,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 59,
+      "title": "Moby-Dick",
+      "author": "Aldous Huxley",
+      "genre": "Historical",
+      "publishedYear": 1906,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Moby-Dick"
+    },
+    {
+      "id": 60,
+      "title": "War and Peace",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Fantasy",
+      "publishedYear": 1970,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 61,
+      "title": "The Brothers Karamazov",
+      "author": "Jane Austen",
+      "genre": "Fantasy",
+      "publishedYear": 2007,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 62,
+      "title": "The Hobbit",
+      "author": "Jane Austen",
+      "genre": "Historical",
+      "publishedYear": 1851,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 63,
+      "title": "Jane Eyre",
+      "author": "George Orwell",
+      "genre": "Historical",
+      "publishedYear": 1964,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+    },
+    {
+      "id": 64,
+      "title": "Animal Farm",
+      "author": "Homer",
+      "genre": "Adventure",
+      "publishedYear": 1872,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 65,
+      "title": "The Hobbit",
+      "author": "William Shakespeare",
+      "genre": "Classic",
+      "publishedYear": 1858,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 66,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "publishedYear": 1988,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+    },
+    {
+      "id": 67,
+      "title": "War and Peace",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "publishedYear": 1935,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 68,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Historical",
+      "publishedYear": 1898,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
+    },
+    {
+      "id": 69,
+      "title": "Animal Farm",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "publishedYear": 1919,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 70,
+      "title": "The Catcher in the Rye",
+      "author": "Aldous Huxley",
+      "genre": "Fantasy",
+      "publishedYear": 1927,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 71,
+      "title": "War and Peace",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Fiction",
+      "publishedYear": 2004,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 72,
+      "title": "Hamlet",
+      "author": "Emily Bront\u00eb",
+      "genre": "Fantasy",
+      "publishedYear": 1921,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+    },
+    {
+      "id": 73,
+      "title": "Moby-Dick",
+      "author": "George Orwell",
+      "genre": "Drama",
+      "publishedYear": 1851,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Moby-Dick"
+    },
+    {
+      "id": 74,
+      "title": "Pride and Prejudice",
+      "author": "J.R.R. Tolkien",
+      "genre": "Drama",
+      "publishedYear": 1915,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Pride+and+Prejudice"
+    },
+    {
+      "id": 75,
+      "title": "War and Peace",
+      "author": "Jane Austen",
+      "genre": "Dystopian",
+      "publishedYear": 2015,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 76,
+      "title": "The Hobbit",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Fiction",
+      "publishedYear": 1926,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+    },
+    {
+      "id": 77,
+      "title": "Animal Farm",
+      "author": "Leo Tolstoy",
+      "genre": "Historical",
+      "publishedYear": 1990,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 78,
+      "title": "Pride and Prejudice",
+      "author": "Charlotte Bront\u00eb",
+      "genre": "Drama",
+      "publishedYear": 1978,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Pride+and+Prejudice"
+    },
+    {
+      "id": 79,
+      "title": "Wuthering Heights",
+      "author": "J.D. Salinger",
+      "genre": "Classic",
+      "publishedYear": 1929,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Wuthering+Heights"
+    },
+    {
+      "id": 80,
+      "title": "Moby-Dick",
+      "author": "William Shakespeare",
+      "genre": "Dystopian",
+      "publishedYear": 1954,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Moby-Dick"
+    },
+    {
+      "id": 81,
+      "title": "1984",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Drama",
+      "publishedYear": 1954,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
+    },
+    {
+      "id": 82,
+      "title": "War and Peace",
+      "author": "J.D. Salinger",
+      "genre": "Adventure",
+      "publishedYear": 1969,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+    },
+    {
+      "id": 83,
+      "title": "Jane Eyre",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "publishedYear": 1969,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+    },
+    {
+      "id": 84,
+      "title": "The Brothers Karamazov",
+      "author": "Ray Bradbury",
+      "genre": "Classic",
+      "publishedYear": 1891,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 85,
+      "title": "Brave New World",
+      "author": "Jane Austen",
+      "genre": "Historical",
+      "publishedYear": 1880,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+    },
+    {
+      "id": 86,
+      "title": "The Great Gatsby",
+      "author": "Aldous Huxley",
+      "genre": "Fantasy",
+      "publishedYear": 1901,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+    },
+    {
+      "id": 87,
+      "title": "The Brothers Karamazov",
+      "author": "Herman Melville",
+      "genre": "Drama",
+      "publishedYear": 1912,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 88,
+      "title": "The Odyssey",
+      "author": "Emily Bront\u00eb",
+      "genre": "Fantasy",
+      "publishedYear": 1881,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Odyssey"
+    },
+    {
+      "id": 89,
+      "title": "Brave New World",
+      "author": "Jane Austen",
+      "genre": "Fantasy",
+      "publishedYear": 1941,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+    },
+    {
+      "id": 90,
+      "title": "1984",
+      "author": "Harper Lee",
+      "genre": "Historical",
+      "publishedYear": 1951,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=1984"
+    },
+    {
+      "id": 91,
+      "title": "The Great Gatsby",
+      "author": "Herman Melville",
+      "genre": "Dystopian",
+      "publishedYear": 1904,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+    },
+    {
+      "id": 92,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "genre": "Adventure",
+      "publishedYear": 1998,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Odyssey"
+    },
+    {
+      "id": 93,
+      "title": "Animal Farm",
+      "author": "Ray Bradbury",
+      "genre": "Drama",
+      "publishedYear": 1908,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+    },
+    {
+      "id": 94,
+      "title": "Fahrenheit 451",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "publishedYear": 1921,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+    },
+    {
+      "id": 95,
+      "title": "Fahrenheit 451",
+      "author": "Leo Tolstoy",
+      "genre": "Adventure",
+      "publishedYear": 1860,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+    },
+    {
+      "id": 96,
+      "title": "Moby-Dick",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian",
+      "publishedYear": 1923,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Moby-Dick"
+    },
+    {
+      "id": 97,
+      "title": "The Brothers Karamazov",
+      "author": "Charlotte Bront\u00eb",
+      "genre": "Fantasy",
+      "publishedYear": 1875,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+    },
+    {
+      "id": 98,
+      "title": "Fahrenheit 451",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "publishedYear": 1935,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+    },
+    {
+      "id": 99,
+      "title": "The Catcher in the Rye",
+      "author": "Charlotte Bront\u00eb",
+      "genre": "Dystopian",
+      "publishedYear": 1912,
+      "status": "Issued",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+    },
+    {
+      "id": 100,
+      "title": "Hamlet",
+      "author": "Homer",
+      "genre": "Fantasy",
+      "publishedYear": 1935,
+      "status": "Available",
+      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+    }
+  ]
 }
