@@ -2,273 +2,243 @@
   "books": [
     {
       "id": 1,
-      "title": "The Brothers Karamazov",
-      "author": "William Shakespeare",
-      "genre": "Adventure",
-      "publishedYear": 1857,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+      "title": "To the Lighthouse",
+      "author": "Virginia Woolf",
+      "genre": "Classic",
+      "publishedYear": 1927,
+      "status": "Available"
     },
     {
       "id": 2,
-      "title": "The Catcher in the Rye",
-      "author": "Emily Bront\u00eb",
-      "genre": "Classic",
-      "publishedYear": 2005,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Fiction",
+      "publishedYear": 1866,
+      "status": "Issued"
     },
     {
       "id": 3,
-      "title": "The Brothers Karamazov",
-      "author": "J.D. Salinger",
-      "genre": "Drama",
-      "publishedYear": 1896,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "genre": "Dystopian",
+      "publishedYear": 1925,
+      "status": "Available"
     },
     {
       "id": 4,
-      "title": "Fahrenheit 451",
-      "author": "Leo Tolstoy",
-      "genre": "Fantasy",
-      "publishedYear": 2014,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "genre": "Adventure",
+      "publishedYear": 1605,
+      "status": "Issued"
     },
     {
       "id": 5,
-      "title": "The Catcher in the Rye",
-      "author": "Herman Melville",
-      "genre": "Adventure",
-      "publishedYear": 1982,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "genre": "Romance",
+      "publishedYear": 1847,
+      "status": "Available"
     },
     {
       "id": 6,
-      "title": "The Catcher in the Rye",
-      "author": "Emily Bront\u00eb",
-      "genre": "Classic",
-      "publishedYear": 1924,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "genre": "Historical",
+      "publishedYear": 1859,
+      "status": "Issued"
     },
     {
       "id": 7,
-      "title": "The Brothers Karamazov",
-      "author": "Herman Melville",
-      "genre": "Adventure",
-      "publishedYear": 1934,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "genre": "Horror",
+      "publishedYear": 1897,
+      "status": "Available"
     },
     {
       "id": 8,
-      "title": "The Odyssey",
-      "author": "Ray Bradbury",
-      "genre": "Drama",
-      "publishedYear": 1875,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Odyssey"
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Horror",
+      "publishedYear": 1818,
+      "status": "Issued"
     },
     {
       "id": 9,
-      "title": "The Great Gatsby",
-      "author": "Ray Bradbury",
-      "genre": "Adventure",
-      "publishedYear": 2006,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+      "title": "The Metamorphosis",
+      "author": "Franz Kafka",
+      "genre": "Fiction",
+      "publishedYear": 1915,
+      "status": "Available"
     },
     {
       "id": 10,
-      "title": "The Catcher in the Rye",
-      "author": "J.R.R. Tolkien",
-      "genre": "Dystopian",
-      "publishedYear": 1935,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "genre": "Drama",
+      "publishedYear": 1877,
+      "status": "Issued"
     },
     {
       "id": 11,
-      "title": "Moby-Dick",
-      "author": "Charlotte Bront\u00eb",
-      "genre": "Dystopian",
-      "publishedYear": 1934,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Moby-Dick"
+      "title": "The Idiot",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Classic",
+      "publishedYear": 1869,
+      "status": "Available"
     },
     {
       "id": 12,
-      "title": "Jane Eyre",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Historical",
-      "publishedYear": 1854,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "genre": "Drama",
+      "publishedYear": 1856,
+      "status": "Issued"
     },
     {
       "id": 13,
-      "title": "Pride and Prejudice",
-      "author": "Charlotte Bront\u00eb",
-      "genre": "Fiction",
-      "publishedYear": 1973,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Pride+and+Prejudice"
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "genre": "Fantasy",
+      "publishedYear": 1967,
+      "status": "Available"
     },
     {
       "id": 14,
-      "title": "Jane Eyre",
-      "author": "George Orwell",
-      "genre": "Adventure",
-      "publishedYear": 1878,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Fiction",
+      "publishedYear": 1890,
+      "status": "Issued"
     },
     {
       "id": 15,
-      "title": "Fahrenheit 451",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1963,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "genre": "Historical",
+      "publishedYear": 1987,
+      "status": "Available"
     },
     {
       "id": 16,
-      "title": "War and Peace",
-      "author": "George Orwell",
-      "genre": "Drama",
-      "publishedYear": 2017,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=War+and+Peace"
+      "title": "Siddhartha",
+      "author": "Hermann Hesse",
+      "genre": "Philosophical",
+      "publishedYear": 1922,
+      "status": "Issued"
     },
     {
       "id": 17,
-      "title": "Fahrenheit 451",
-      "author": "William Shakespeare",
-      "genre": "Historical",
-      "publishedYear": 1944,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Fahrenheit+451"
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "genre": "Epic",
+      "publishedYear": 1320,
+      "status": "Available"
     },
     {
       "id": 18,
-      "title": "The Great Gatsby",
-      "author": "Jane Austen",
-      "genre": "Dystopian",
-      "publishedYear": 1922,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Great+Gatsby"
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "genre": "Drama",
+      "publishedYear": 1862,
+      "status": "Issued"
     },
     {
       "id": 19,
-      "title": "Brave New World",
-      "author": "Leo Tolstoy",
-      "genre": "Dystopian",
-      "publishedYear": 2019,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "genre": "Adventure",
+      "publishedYear": 1844,
+      "status": "Available"
     },
     {
       "id": 20,
-      "title": "Hamlet",
-      "author": "Aldous Huxley",
-      "genre": "Fantasy",
-      "publishedYear": 1938,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "genre": "Fiction",
+      "publishedYear": 1963,
+      "status": "Issued"
     },
     {
       "id": 21,
-      "title": "The Brothers Karamazov",
-      "author": "Aldous Huxley",
-      "genre": "Fiction",
-      "publishedYear": 1903,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Brothers+Karamazov"
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "genre": "Modernist",
+      "publishedYear": 1922,
+      "status": "Available"
     },
     {
       "id": 22,
-      "title": "The Hobbit",
-      "author": "Emily Bront\u00eb",
-      "genre": "Historical",
-      "publishedYear": 1892,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+      "title": "A Clockwork Orange",
+      "author": "Anthony Burgess",
+      "genre": "Dystopian",
+      "publishedYear": 1962,
+      "status": "Issued"
     },
     {
       "id": 23,
-      "title": "Brave New World",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Adventure",
-      "publishedYear": 1868,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "genre": "Philosophical",
+      "publishedYear": 1942,
+      "status": "Available"
     },
     {
       "id": 24,
-      "title": "Hamlet",
-      "author": "Jane Austen",
-      "genre": "Classic",
-      "publishedYear": 1944,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Hamlet"
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "genre": "Historical",
+      "publishedYear": 1939,
+      "status": "Issued"
     },
     {
       "id": 25,
-      "title": "Animal Farm",
-      "author": "J.R.R. Tolkien",
-      "genre": "Historical",
-      "publishedYear": 2001,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Animal+Farm"
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "genre": "Fiction",
+      "publishedYear": 1926,
+      "status": "Available"
     },
     {
       "id": 26,
-      "title": "The Catcher in the Rye",
-      "author": "Jane Austen",
-      "genre": "Drama",
-      "publishedYear": 1944,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Catcher+in+the+Rye"
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "genre": "Classic",
+      "publishedYear": 1952,
+      "status": "Issued"
     },
     {
       "id": 27,
-      "title": "The Odyssey",
-      "author": "Harper Lee",
-      "genre": "Dystopian",
-      "publishedYear": 1929,
-      "status": "Available",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Odyssey"
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "genre": "Historical",
+      "publishedYear": 1958,
+      "status": "Available"
     },
     {
       "id": 28,
-      "title": "Jane Eyre",
-      "author": "Jane Austen",
-      "genre": "Fiction",
-      "publishedYear": 1994,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Jane+Eyre"
+      "title": "Native Son",
+      "author": "Richard Wright",
+      "genre": "Drama",
+      "publishedYear": 1940,
+      "status": "Issued"
     },
     {
       "id": 29,
-      "title": "The Hobbit",
-      "author": "F. Scott Fitzgerald",
-      "genre": "Dystopian",
-      "publishedYear": 1907,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=The+Hobbit"
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "genre": "Adventure",
+      "publishedYear": 1952,
+      "status": "Available"
     },
     {
       "id": 30,
-      "title": "Brave New World",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1909,
-      "status": "Issued",
-      "coverImage": "https://via.placeholder.com/150x220.png?text=Brave+New+World"
+      "title": "Atlas Shrugged",
+      "author": "Ayn Rand",
+      "genre": "Philosophical",
+      "publishedYear": 1957,
+      "status": "Issued"
     }
   ]
 }
